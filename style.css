@@ -1,0 +1,56 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 64px;
+    margin-top: 71px;
+    background-color: #ccafaf;
+    font-family: system-ui;
+    padding-right: 130px;
+}
+
+#clockcontainer{
+    position: relative;
+    height : 550px;
+    width: 550px;
+    background: url('./clock.jpg') no-repeat ;
+    margin: auto;
+    background-size: 80%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 4px;
+    transform-origin: bottom; /* To rotate the needles from bottom rather than centre  */
+    background-color: black;
+}
+
+#hour{
+    width: 1%;
+    height: 21%;
+    left: 39.5%;
+    top: 19.2%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#minute{ 
+    width: 1%;
+    height: 25.2%;
+    left: 39.5%;
+    top: 15%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#second{ 
+    width: 1%;
+    height: 27%;
+    left: 39.5%;
+    top: 13.2%;
+    opacity: 0.8;
+    /* display: none; */
+}
